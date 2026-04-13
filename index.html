@@ -1,391 +1,419 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-
-<head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Portfólio | Vinicius Zanon</title>
-
-<link rel="stylesheet" href="css/style.css">
-
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-
-</head>
-
-
-<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-smooth-scroll="true">
-
-<div class="container-fluid">
-
-    <!--Navegação-->
-
-<nav class="navbar navbar-expand-lg px-3 fixed-top shadow" id="navbar">
-
-<a class="navbar-brand" href="#">Vinicius Zanon</a>
-
-<ul class="nav nav-pills ms-auto">
-
-<li class="nav-item">
-<a class="nav-link" href="#sobre">Apresentação</a>
-</li>
-
-<li class="nav-item">
-<a class="nav-link" href="#stack">Tecnologias</a>
-</li>
-
-<li class="nav-item">
-<a class="nav-link" href="#projetos">Projetos</a>
-</li>
-
-<li class="nav-item">
-<a class="nav-link" href="#contato">Contato</a>
-</li>
-
-<li class="nav-item">
-<a class="nav-link"
-href="https://drive.google.com/file/d/1s8nr6SeE5ss0OhQds2yWgEMoKHRwTx_i/view?usp=sharing"
-target="_blank">
-Currículo
-</a>
-</li>
-
-</ul>
-
-</nav>
-
-
-<div class="container p-4">
-
-<!-- HERO -->
-
-<section class="hero text-center mb-5">
-
-<img src="Images/my.jpg" class="profile-img shadow-lg">
-
-<h1 class="fw-bold display-5">Vinicius Zanon</h1>
-
-<p class="lead text-secondary">
-Desenvolvedor em formação!
-</p>
-
-<div class="mt-4 d-flex justify-content-center gap-3 flex-wrap">
-
-<a href="https://drive.google.com/file/d/1s8nr6SeE5ss0OhQds2yWgEMoKHRwTx_i/view?usp=sharing"
-target="_blank"
-class="btn btn-dark">
-
-<i class="bi bi-file-earmark-person"></i>
-Ver Currículo
-
-</a>
-
-<a href="#projetos" class="btn btn-primary">
-
-<i class="bi bi-code-slash"></i>
-Ver Projetos
-
-</a>
-
-</div>
-
-</section>
-
-
-<!-- Sobre -->
-
-<h3 id="sobre" class="mb-4">
-Apresentação
-</h3>
-
-<div class="row align-items-center mb-5">
-
-<div class="col-md-8">
-
-<h3>Sobre mim</h3>
-
-<p>
-Sou desenvolvedor em formação focado no desenvolvimento de aplicações back-end utilizando
-<strong>Java, Spring Boot e bancos de dados relacionais</strong>.
-</p>
-
-<p>
-Atualmente curso <strong>Análise e Desenvolvimento de Sistemas</strong> no UniCuritiba
-e desenvolvo projetos práticos voltados para APIs e sistemas web.
-</p>
-
-<p>
-Tenho experiência profissional desde os 16 anos, o que me trouxe disciplina,
-responsabilidade e habilidades de liderança que aplico também no desenvolvimento
-de software.
-</p>
-
-</div>
-
-</div>
-
-
-<!-- Objetivos -->
-
-<h3 class="mb-4">
-Objetivo Profissional
-</h3>
-
-<p class="mb-5">
-
-Busco minha primeira oportunidade como desenvolvedor onde eu possa aplicar
-meus conhecimentos em Java, Spring Boot e desenvolvimento de APIs REST.
-
-Tenho grande interesse em evoluir em arquitetura de software,
-boas práticas de programação e construção de aplicações escaláveis.
-
-</p>
-
-
-<!-- Tecnologias -->
-
-<h3 id="stack" class="mb-4">
-Stack Principal
-</h3>
-
-<div class="d-flex flex-wrap gap-3 mb-5 justify-content-center">
-
-<span class="badge bg-secondary">Java</span>
-<span class="badge bg-info text-dark">Spring Boot</span>
-<span class="badge bg-success">MySQL</span>
-<span class="badge bg-dark">Docker</span>
-<span class="badge bg-dark">Git</span>
-
-</div>
-
-
-<h3 class="mb-4">
-Outras Tecnologias
-</h3>
-
-<div class="d-flex flex-wrap gap-3 mb-5 justify-content-center">
-
-<span class="badge bg-danger">HTML</span>
-<span class="badge bg-primary">CSS</span>
-<span class="badge bg-warning text-dark">JavaScript</span>
-<span class="badge bg-primary">Bootstrap</span>
-<span class="badge bg-success">Python</span>
-<span class="badge bg-secondary">C++</span>
-<span class="badge bg-dark">GitHub</span>
-
-</div>
-
-
-<!--estudando -->
-
-<h3 class="mb-4">
-Atualmente Estudando
-</h3>
-
-<ul class="list-group mb-5">
-
-<li class="list-group-item">
-Kotlin
-</li>
-
-<li class="list-group-item">
-Arquitetura de APIs REST
-</li>
-
-<li class="list-group-item">
-Clouds 
-</li>
-
-<li class="list-group-item">
-Boas práticas de Clean Code
-</li>
-
-</ul>
-
-
-<!-- Certificados -->
-
-<h3 class="mb-4">
-Certificados
-</h3>
-
-<div style="max-width: 500px; margin: 0 auto;">
-<div id="certificadosCarousel" class="carousel slide mb-5" data-bs-ride="carousel">
-
-<div class="carousel-inner">
-
-<div class="carousel-item active">
-<img src="Images/ctf1.png" class="d-block w-100" alt="Certificado 1">
-</div>
-
-<div class="carousel-item">
-<img src="Images/ctf2.png" class="d-block w-100" alt="Certificado 2">
-</div>
-
-<div class="carousel-item">
-<img src="Images/ctf3.png" class="d-block w-100" alt="Certificado 3">
-</div>
-
-<div class="carousel-item">
-<img src="Images/ctf4.png" class="d-block w-100" alt="Certificado 4">
-</div>
-
-<div class="carousel-item">
-<img src="Images/ctf5.png" class="d-block w-100" alt="Certificado 5">
-</div>
-
-<div class="carousel-item">
-<img src="Images/ctf6.png" class="d-block w-100" alt="Certificado 6">
-</div>
-
-<div class="carousel-item">
-<img src="Images/ctf7.png" class="d-block w-100" alt="Certificado 7">
-</div>
-
-<div class="carousel-item">
-<img src="Images/ctf8.png" class="d-block w-100" alt="Certificado 8">
-</div>
-
-</div>
-
-<button class="carousel-control-prev" type="button" data-bs-target="#certificadosCarousel" data-bs-slide="prev">
-<span class="carousel-control-prev-icon"></span>
-</button>
-
-<button class="carousel-control-next" type="button" data-bs-target="#certificadosCarousel" data-bs-slide="next">
-<span class="carousel-control-next-icon"></span>
-</button>
-
-</div>
-
-</div>
-
-
-<!-- Projetos -->
-
-<h3 id="projetos" class="mb-4">
-Projetos
-</h3>
-
-<div class="row g-4">
-
-<div class="col-md-6 col-lg-4">
-
-<div class="card h-100 shadow">
-
-<img src="Images/seven.jpeg" class="card-img-top">
-
-<div class="card-body">
-
-<h5 class="card-title">SevenZeal</h5>
-
-<p class="card-text">
-
-Sistema web de agendamento para estéticas automotivas que permite cadastrar
-clientes, veículos e manter histórico de serviços realizados.
-
-</p>
-
-<a href="https://sevenzeal.vercel.app/" target="_blank" class="btn btn-primary">
-Projeto
-</a>
-
-<a href="https://github.com/ViniciusZanon7" target="_blank" class="btn btn-outline-dark ms-2">
-Código
-</a>
-
-</div>
-
-</div>
-
-</div>
-
-
-<div class="col-md-6 col-lg-4">
-
-<div class="card h-100 shadow">
-
-<img src="Images/api.jpeg" class="card-img-top">
-
-<div class="card-body">
-
-<h5 class="card-title">API Bancária</h5>
-
-<p class="card-text">
-
-API REST para simulação de operações bancárias com cadastro de clientes,
-consulta de saldo e transferências.
-
-Desenvolvida com <strong>Java, Spring Boot e MySQL</strong>.
-
-</p>
-
-<a href="https://github.com/ViniciusZanon7" target="_blank" class="btn btn-outline-dark">
-Código
-</a>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-
-<!-- Github -->
-
-<h3>Atividade no GitHub</h3>
-
-<div class="text-center mb-5">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=ViniciusZanon7" />
-
-</div>
-
-<!-- Contato -->
-
-<h3 id="contato" class="mb-4">
-Contato
-</h3>
-
-<div class="d-flex gap-3 flex-wrap mb-5">
-
-<a href="https://wa.me/+5541995135626" target="_blank" class="btn btn-success">
-<i class="bi bi-whatsapp"></i> WhatsApp
-</a>
-
-<a href="https://www.linkedin.com/in/vinedzanon/" target="_blank" class="btn btn-primary">
-<i class="bi bi-linkedin"></i> LinkedIn
-</a>
-
-<a href="https://github.com/ViniciusZanon7" target="_blank" class="btn btn-dark">
-<i class="bi bi-github"></i> GitHub
-</a>
-
-<a href="https://www.instagram.com/vined.zanon/" target="_blank" class="btn btn-danger">
-<i class="bi bi-instagram"></i> Instagram
-</a>
-
-</div>
-
-
-<footer class="text-center py-4 text-secondary">
-
-<p>© 2026 • Vinicius Zanon</p>
-
-<p>Site feito em HTML e Bootstrap</p>
-
-</footer>
-
-</div>
-
-</div>
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Portfólio | Vinicius Zanon</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+
+  <body
+    data-bs-spy="scroll"
+    data-bs-target="#navbar"
+    data-bs-smooth-scroll="true"
+  >
+    <div class="container-fluid">
+      <!--Navegação-->
+
+      <nav class="navbar navbar-expand-lg px-3 fixed-top shadow" id="navbar">
+        <a class="navbar-brand" href="#">Vinicius Zanon</a>
+
+        <ul class="nav nav-pills ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#sobre">Apresentação</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#stack">Tecnologias</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#projetos">Projetos</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#contato">Contato</a>
+          </li>
+
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://drive.google.com/file/d/1s8nr6SeE5ss0OhQds2yWgEMoKHRwTx_i/view?usp=sharing"
+              target="_blank"
+            >
+              Currículo
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="container p-4">
+        <!-- HERO -->
+
+        <section class="hero text-center mb-5">
+          <img src="Images/my.jpg" class="profile-img shadow-lg" />
+
+          <h1 class="fw-bold display-5">Vinicius Zanon</h1>
+
+          <p class="lead text-secondary">Desenvolvedor Full Stack!</p>
+
+          <div class="mt-4 d-flex justify-content-center gap-3 flex-wrap">
+            <a
+              href="https://drive.google.com/file/d/1s8nr6SeE5ss0OhQds2yWgEMoKHRwTx_i/view?usp=sharing"
+              target="_blank"
+              class="btn btn-dark"
+            >
+              <i class="bi bi-file-earmark-person"></i>
+              Ver Currículo
+            </a>
+
+            <a href="#projetos" class="btn btn-primary">
+              <i class="bi bi-code-slash"></i>
+              Ver Projetos
+            </a>
+          </div>
+        </section>
+
+        <!-- Sobre -->
+
+        <h3 id="sobre" class="mb-4">Apresentação</h3>
+
+        <div class="row align-items-center mb-5">
+          <div class="col-md-8">
+            <h3>Sobre mim</h3>
+
+            <p>
+              Sou um desenvolvedor focado no desenvolvimento de aplicações
+              back-end utilizando
+              <strong>Java, Spring Boot e bancos de dados relacionais</strong>,
+              em front-end utilizo
+              <strong> React, HTML, CSS e JavaScript</strong> para criar
+              interfaces intuitivas e responsivas.
+            </p>
+
+            <p>
+              Atualmente curso
+              <strong>Análise e Desenvolvimento de Sistemas</strong> na
+              UniCuritiba e desenvolvo projetos práticos voltados para APIs e
+              sistemas web.
+            </p>
+
+            <p>
+              Tenho experiência profissional desde os 16 anos, o que me trouxe
+              disciplina, responsabilidade e habilidades de liderança que aplico
+              também no desenvolvimento de software.
+            </p>
+          </div>
+        </div>
+
+        <!-- Objetivos -->
+
+        <h3 class="mb-4">Objetivo Profissional</h3>
+
+        <p class="mb-5">
+          Busco aprimorar minha capacidade técnica como desenvolvedor em Java,
+          JavaScript e frameworks como Spring Boot, Bootstrap e desenvolvimento
+          de APIs REST. Tenho grande interesse em evoluir em arquitetura de
+          software, boas práticas de programação, web security e construção de
+          aplicações escaláveis.
+        </p>
+
+        <!-- Tecnologias -->
+
+        <h3 id="stack" class="mb-4">Stack Principal</h3>
+
+        <div class="d-flex flex-wrap gap-3 mb-5 justify-content-center">
+          <span class="badge bg-secondary">Java</span>
+          <span class="badge bg-info text-dark">Spring Boot</span>
+          <span class="badge bg-success">JavaScript</span>
+          <span class="badge bg-primary">React</span>
+          <span class="badge bg-dark">Git</span>
+        </div>
+
+        <h3 class="mb-4">Outras Tecnologias</h3>
+
+        <div class="d-flex flex-wrap gap-3 mb-5 justify-content-center">
+          <span class="badge bg-danger">HTML</span>
+          <span class="badge bg-primary">CSS</span>
+          <span class="badge bg-warning text-dark">Docker</span>
+          <span class="badge bg-primary">Bootstrap</span>
+          <span class="badge bg-success">MySQL</span>
+          <span class="badge bg-dark">GitHub</span>
+        </div>
+
+        <!--estudando -->
+
+        <h3 class="mb-4">Atualmente Estudando</h3>
+
+        <ul class="list-group mb-5">
+          <li class="list-group-item">Kotlin</li>
+
+          <li class="list-group-item">Arquitetura de APIs REST</li>
+
+          <li class="list-group-item">Clouds</li>
+
+          <li class="list-group-item">Boas práticas de Clean Code</li>
+        </ul>
+
+        <!-- Certificados -->
+
+        <h3 class="mb-4">Certificados</h3>
+
+        <div style="max-width: 500px; margin: 0 auto">
+          <div
+            id="certificadosCarousel"
+            class="carousel slide mb-5"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="Images/ctf1.png"
+                  class="d-block w-100"
+                  alt="Certificado 1"
+                />
+              </div>
+
+              <div class="carousel-item">
+                <img
+                  src="Images/ctf2.png"
+                  class="d-block w-100"
+                  alt="Certificado 2"
+                />
+              </div>
+
+              <div class="carousel-item">
+                <img
+                  src="Images/ctf3.png"
+                  class="d-block w-100"
+                  alt="Certificado 3"
+                />
+              </div>
+
+              <div class="carousel-item">
+                <img
+                  src="Images/ctf4.png"
+                  class="d-block w-100"
+                  alt="Certificado 4"
+                />
+              </div>
+
+              <div class="carousel-item">
+                <img
+                  src="Images/ctf5.png"
+                  class="d-block w-100"
+                  alt="Certificado 5"
+                />
+              </div>
+
+              <div class="carousel-item">
+                <img
+                  src="Images/ctf6.png"
+                  class="d-block w-100"
+                  alt="Certificado 6"
+                />
+              </div>
+
+              <div class="carousel-item">
+                <img
+                  src="Images/ctf7.png"
+                  class="d-block w-100"
+                  alt="Certificado 7"
+                />
+              </div>
+
+              <div class="carousel-item">
+                <img
+                  src="Images/ctf8.png"
+                  class="d-block w-100"
+                  alt="Certificado 8"
+                />
+              </div>
+            </div>
+
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#certificadosCarousel"
+              data-bs-slide="prev"
+            >
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#certificadosCarousel"
+              data-bs-slide="next"
+            >
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Projetos -->
+
+        <h3 id="projetos" class="mb-4">Projetos</h3>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 shadow">
+              <img src="Images/991bebidas.png" class="card-img-top" />
+
+              <div class="card-body">
+                <h5 class="card-title">991 Bebidas</h5>
+
+                <p class="card-text">
+                  Pagina de e-commerce para venda de bebidas, com catálogo de
+                  produtos, feita em React com interação redirencionando para
+                  WhatsApp para finalizar a compra.
+                </p>
+
+                <a
+                  href="https://991bebidas.vercel.app/"
+                  target="_blank"
+                  class="btn btn-primary"
+                >
+                  Projeto
+                </a>
+
+                <a
+                  href="https://github.com/ViniciusZanon7/991Bebidas"
+                  target="_blank"
+                  class="btn btn-outline-dark ms-2"
+                >
+                  Código
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 shadow">
+              <img src="Images/seven.jpeg" class="card-img-top" />
+
+              <div class="card-body">
+                <h5 class="card-title">SevenZeal</h5>
+
+                <p class="card-text">
+                  Sistema web de agendamento para estéticas automotivas que
+                  permite cadastrar clientes, veículos e manter histórico de
+                  serviços realizados.
+                </p>
+
+                <a
+                  href="https://sevenzeal.vercel.app/"
+                  target="_blank"
+                  class="btn btn-primary"
+                >
+                  Projeto
+                </a>
+
+                <a
+                  href="https://github.com/ViniciusZanon7"
+                  target="_blank"
+                  class="btn btn-outline-dark ms-2"
+                >
+                  Código
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 shadow">
+              <img src="Images/api.jpeg" class="card-img-top" />
+
+              <div class="card-body">
+                <h5 class="card-title">API Bancária</h5>
+
+                <p class="card-text">
+                  API REST para simulação de operações bancárias com cadastro de
+                  clientes, consulta de saldo e transferências. Desenvolvida com
+                  <strong>Java, Spring Boot e MySQL</strong>.
+                </p>
+
+                <a
+                  href="https://github.com/ViniciusZanon7"
+                  target="_blank"
+                  class="btn btn-outline-dark"
+                >
+                  Código
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        </br>
+        </br>
+
+        <!-- Github -->
+
+        <h3>Atividade no GitHub</h3>
+
+        <div class="text-center mb-5">
+          <img
+            src="https://github-readme-streak-stats.herokuapp.com/?user=ViniciusZanon7"
+          />
+        </div>
+
+        <!-- Contato -->
+
+        <h3 id="contato" class="mb-4">Contato</h3>
+
+        <div class="d-flex gap-3 flex-wrap mb-5">
+          <a
+            href="https://wa.me/+5541995135626"
+            target="_blank"
+            class="btn btn-success"
+          >
+            <i class="bi bi-whatsapp"></i> WhatsApp
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/vinedzanon/"
+            target="_blank"
+            class="btn btn-primary"
+          >
+            <i class="bi bi-linkedin"></i> LinkedIn
+          </a>
+
+          <a
+            href="https://github.com/ViniciusZanon7"
+            target="_blank"
+            class="btn btn-dark"
+          >
+            <i class="bi bi-github"></i> GitHub
+          </a>
+
+          <a
+            href="https://www.instagram.com/vined.zanon/"
+            target="_blank"
+            class="btn btn-danger"
+          >
+            <i class="bi bi-instagram"></i> Instagram
+          </a>
+        </div>
+
+        <footer class="text-center py-4 text-secondary">
+          <p>© 2026 • Vinicius Zanon</p>
+
+          <p>Site feito em HTML e Bootstrap</p>
+        </footer>
+      </div>
+    </div>
+  </body>
 </html>
